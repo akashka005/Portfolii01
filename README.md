@@ -1,20 +1,120 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Akash K A Portfolio 🚀
 
-# Run and deploy your AI Studio app
+A modern, interactive portfolio website built with React and TypeScript, showcasing my journey as a developer, my projects, skills, and achievements. This site features smooth animations, a custom cursor, and a responsive design that works seamlessly across devices.
 
-This contains everything you need to run your app locally.
+## ✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/34f9960d-e16d-4de6-8b7f-956aa3fc52c1
+- **Hero Section** 🦸‍♂️: Eye-catching introduction with dynamic animations
+- **About Me** 👨‍💻: Personal story and background
+- **Projects** 💼: Showcase of key projects with detailed case studies
+- **Bento Gallery** 🖼️: Creative visual layout of work samples
+- **Skills** 🛠️: Interactive skills section with hover effects
+- **Education** 🎓: Academic background and qualifications
+- **Certifications** 🏆: Professional certifications and achievements
+- **Achievements** 🌟: Notable accomplishments and milestones
+- **Contact** 📬: Easy ways to get in touch
+- **Custom Cursor** 🖱️: Unique interactive cursor experience
+- **Smooth Scrolling** 🌊: Fluid navigation with Lenis library
+- **Page Transitions** 🔄: Seamless animations between pages
+- **Responsive Design** 📱: Optimized for all screen sizes
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend Framework**: React 19 ⚛️
+- **Language**: TypeScript 📝
+- **Build Tool**: Vite ⚡
+- **Styling**: TailwindCSS 🎨
+- **Animations**: Framer Motion 🎭
+- **Icons**: Lucide React 🎯
+- **Smooth Scrolling**: Lenis 🌊
+- **Routing**: React Router DOM 🛣️
+- **Utilities**: clsx, tailwind-merge 🔧
 
+## 🚀 Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. **Clone the repository** 📥
+   ```bash
+   git clone https://github.com/your-username/akash-k-a-portfolio.git
+   cd akash-k-a-portfolio
+   ```
+
+2. **Install dependencies** 📦
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server** 🔥
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser** 🌐
+   Navigate to `http://localhost:3000` to view the portfolio.
+
+## 📖 Usage
+
+- **Navigation**: Use the navbar to jump between sections or scroll smoothly.
+- **Projects**: Click on project cards to view detailed case studies.
+- **Skills**: Hover over skills to see related projects highlight.
+- **Contact**: Use the contact form or provided links to reach out.
+
+## 🏗️ Project Structure
+
+```
+akash-k-a-portfolio/
+├── public/                 # Static assets
+│   ├── certs/             # Certification files
+│   ├── cv/                # Resume/CV files
+│   └── img/               # Images and media
+├── src/
+│   ├── components/        # Reusable UI components
+│   │   ├── Hero.tsx       # Hero section
+│   │   ├── About.tsx      # About section
+│   │   ├── Projects.tsx   # Projects showcase
+│   │   └── ...            # Other components
+│   ├── data/              # Static data files
+│   │   ├── projects.ts    # Project information
+│   │   ├── achievements.ts # Achievement data
+│   │   └── ...
+│   ├── hooks/             # Custom React hooks
+│   ├── lib/               # Utility functions
+│   ├── pages/             # Page components
+│   │   ├── Home.tsx       # Main page
+│   │   └── CaseStudy.tsx  # Project detail page
+│   └── ...
+├── package.json           # Dependencies and scripts
+├── vite.config.ts         # Vite configuration
+└── tsconfig.json          # TypeScript configuration
+```
+
+## 🧪 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run clean` - Clean build directory
+- `npm run lint` - Run TypeScript type checking
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve this portfolio:
+
+1. Fork the repository 🍴
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request 📝
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+Feel free to reach out through the contact section of the website or connect with me on:
+
+- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
+- **Email**: your.email@example.com
+
+---

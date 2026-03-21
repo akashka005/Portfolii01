@@ -101,7 +101,7 @@ export const Contact = () => {
               <input 
                 type="text" 
                 required
-                placeholder="John Doe"
+                placeholder="Name"
                 className="bg-transparent border-none p-0 text-xl md:text-2xl font-display uppercase focus:ring-0 placeholder:opacity-20"
                 value={formData.name}
                 onChange={(e) => setFormData({...formData, name: e.target.value})}
@@ -118,7 +118,7 @@ export const Contact = () => {
               <input 
                 type="email" 
                 required
-                placeholder="john@example.com"
+                placeholder="email"
                 className="bg-transparent border-none p-0 text-xl md:text-2xl font-display uppercase focus:ring-0 placeholder:opacity-20"
                 value={formData.email}
                 onChange={(e) => setFormData({...formData, email: e.target.value})}
